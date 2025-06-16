@@ -8,6 +8,6 @@ else
         eval arg=${$i}
         if [ -n "$arg" ]; then
             echo "Argument $i: $arg"
-        fi
+        fi      
     done
 fi
