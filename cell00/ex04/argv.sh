@@ -1,5 +1,5 @@
 #!/bin/bash
-filepath: cell00/ex04/argv.sh
+filepath: argv.sh
 if [ $# -eq 0 ]; then
     echo "No arguments supplied."
 else
@@ -8,6 +8,6 @@ else
         eval arg=${$i}
         if [ -n "$arg" ]; then
             echo "Argument $i: $arg"
-        fi      
+        fi
     done
 fi
