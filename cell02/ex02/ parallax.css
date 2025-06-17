@@ -1,0 +1,59 @@
+/* Parallax effect with ice cream and cat images */
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.parallax-section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 2.2em;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.parallax-bg1 {
+    background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80'); /* ไอติม */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-bg2 {
+    background-image: url('https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=1200&q=80'); /* แมว */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.center-message {
+    background: rgba(0,0,0,0.35);
+    padding: 30px 50px;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+    display: inline-block;
+}
+
+.black-block {
+    min-height: 60vh;
+    background: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffe082;
+    font-size: 2em;
+    font-style: italic;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 8px #000;
+}

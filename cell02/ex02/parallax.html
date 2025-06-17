@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Parallax Ice Cream & Cat</title>
+  <style>
+    html,body{height:100%;margin:0;}
+    body{font-family:sans-serif;}
+    .parallax{min-height:100vh;display:flex;justify-content:center;align-items:center;font-size:2em;font-weight:bold;text-align:center;}
+    .bg1{background:url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80')center/cover fixed;}
+    .bg2{background:url('https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=1200&q=80')center/cover fixed;}
+    .msg{background:rgba(0,0,0,0.4);color:#fff;padding:24px 40px;border-radius:16px;}
+    .black{min-height:60vh;background:#111;display:flex;justify-content:center;align-items:center;color:#ffe082;font-size:1.5em;}
+    @media(max-width:900px){.bg1,.bg2{background-attachment:scroll;}}
+  </style>
+</head>
+<body>
+  <section class="parallax bg1"><div class="msg">ไอติมเย็นๆ สดชื่นใจ 🍦</div></section>
+  <section class="black">วันนี้อากาศดี เหมาะกับการกินไอติมและเล่นกับแมว!</section>
+  <section class="parallax bg2"><div class="msg">แมวเหมียวสุดน่ารัก 🐱</div></section>
+</body>
+</html>
