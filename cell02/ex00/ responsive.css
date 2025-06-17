@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    min-height: 100vh;
+    min-width: 100vw;
+    box-sizing: border-box;
+}
+table {
+    width: 100vw;
+    height: 100vh;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+td {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 3vw;
+    color: white;
+    font-family: Arial, sans-serif;
+    word-break: break-word;
+}
+.box1 { background-color: #e57373; }
+.box2 { background-color: #64b5f6; }
+.box3 { background-color: #81c784; }
+.box4 { background-color: #ffd54f; color: #333; }
+.box5 { background-color: #ba68c8; }
