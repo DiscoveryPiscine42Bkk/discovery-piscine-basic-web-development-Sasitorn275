@@ -1,0 +1,101 @@
+body {
+    background: #f5f6fa;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-card {
+    width: 340px;
+    margin: 60px auto;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(60,60,60,0.13);
+    padding: 32px 28px 24px 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-title {
+    font-size: 1.7em;
+    font-weight: bold;
+    margin-bottom: 18px;
+    color: #2d2d2d;
+    letter-spacing: 1px;
+}
+
+.profile-table {
+    display: table;
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+.profile-row {
+    display: table-row;
+}
+
+.profile-cell {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.profile-pic {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 12px;
+    border: 3px solid #e2001a;
+}
+
+.profile-login {
+    font-size: 1.1em;
+    color: #e2001a;
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+
+.profile-desc {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 18px;
+    font-style: italic;
+}
+
+.social-row {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-bottom: 22px;
+}
+
+.social-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    transition: transform 0.15s;
+}
+.social-icon:hover {
+    transform: scale(1.15);
+    box-shadow: 0 2px 8px #e2001a33;
+}
+
+.contact-btn {
+    margin-top: 10px;
+    padding: 10px 36px;
+    background: linear-gradient(90deg, #e2001a 60%, #a50034 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px #e2001a22;
+}
+.contact-btn:hover {
+    background: linear-gradient(90deg, #a50034 60%, #e2001a 100%);
+    box-shadow: 0 4px 16px #e2001a33;
+}
